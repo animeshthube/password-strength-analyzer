@@ -1,5 +1,9 @@
 # Password Strength Analyzer
 
+![Python](https://img.shields.io/badge/Python-Security%20Tool-blue)
+![Cyber Security](https://img.shields.io/badge/Cyber%20Security-Password%20Security-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Password Strength Analyzer Banner](screenshots/banner.png)
 
 A Python tool that checks whether a password is **Weak**, **Moderate**,
@@ -18,7 +22,7 @@ feedback for improving it.
 - ✔ CLI Tool Development
 - ✔ Security Best Practices (NIST-aware scoring)
 
-## Goal
+## Project Overview
 
 Build a tool that checks whether a password is weak, moderate, or
 strong based on length, character variety, and common weak patterns —
@@ -32,7 +36,18 @@ passwords remain one of the most common causes of account compromise.
 - Gives specific, actionable feedback instead of a pass/fail message
 - Reusable as a library function inside signup/reset flows, not just a CLI
 
-## Rules Used
+## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Password analysis and scoring |
+| Regular Expressions (Regex) | Pattern matching |
+| UnitTest | Automated testing |
+| CLI (Command Line Interface) | Interactive password analysis |
+| NIST SP 800-63B Guidelines | Password security best practices |
+| Git & GitHub | Version control and portfolio management |
+
+## Password Evaluation Criteria
 
 - Minimum length of 8 characters (12+ earns a bonus point)
 - At least one uppercase letter
@@ -158,7 +173,7 @@ password-strength-analyzer/
 > mode. Highlights awareness of real-world password guidance (NIST
 > SP 800-63B) beyond simple rule-checking.
 
-## Next Steps / Ideas for Extending This
+## Future Enhancements
 
 - Swap the small sample list for a real breached-password dataset
   (e.g. via the Have I Been Pwned API, checked locally/offline)
@@ -166,6 +181,15 @@ password-strength-analyzer/
 - Build a small web form front-end for the same `analyze_password()`
   logic
 - Add zxcvbn-style pattern matching for more realistic strength estimates
+
+## Author
+
+**Animesh Thube**
+
+Aspiring Cybersecurity Analyst | Python | Security Automation | Password Security
+
+GitHub:
+https://github.com/animeshthube
 
 ---
 
